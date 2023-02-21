@@ -1,4 +1,4 @@
-import { countCharacters, largestNumber, solve200 } from ".";
+import { countCharacters, largestNumber, solveDeduction } from ".";
 
 describe("countCharacters", () => {
   it("should return the number of times each character appears in the string", () => {
@@ -12,8 +12,8 @@ describe("largestNumber", () => {
   });
 });
 
-describe("solve200", () => {
+describe("solveDeduction", () => {
   it("should return the smallest number of moves", () => {
-    expect(solve200()).toBe(9);
+    expect(solveDeduction(500, 1)).toBe(13);
   });
 });

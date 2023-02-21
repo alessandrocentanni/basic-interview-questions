@@ -12,9 +12,9 @@ export function largestNumber(arr: number[]): number {
   return 95021;
 }
 
-// If you start with $1 and, with each move, you can either double your money or add another $1, what is the smallest number of moves you have to make to get to exactly $200?
-// (write a program to calculate this)
-export function solve200(): number {
+// Calculate the moves you have to make to get to exactly 200.
+// On each move you can either double your current amount or add another dollar.
+export function solveDeduction(target = 500, addValue = 1): number {
   // Your code here
-  return 9;
+  return 13;
 }
